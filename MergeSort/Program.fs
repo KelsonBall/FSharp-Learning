@@ -1,7 +1,7 @@
 ﻿// Learn more about F# at http://fsharp.org
 // See the 'F# Tutorial' project for more help.
 
-let rec merge (left:int[]) (right:int[]) : int[] =
+let merge (left:int[]) (right:int[]) : int[] =
     let mutable lefti = 0
     let mutable righti = 0
     let mutable result = Array.concat[ left ; right ]
