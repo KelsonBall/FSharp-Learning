@@ -1,24 +1,12 @@
-﻿// Learn more about F# at http://fsharp.org
-// See the 'F# Tutorial' project for more help.
-
-let merge (left:int[]) (right:int[]) : int[] =
-    let mutable lefti = 0
-    let mutable righti = 0
-    let mutable result = Array.concat[ left ; right ]
-    for i = 0 to left.Length + right.Length - 1 do
-        if left.[lefti] < right.[righti] then
-            result.[i] <- left.[lefti]
-            lefti <- lefti + 1
-            if lefti >= left.Length then
-                lefti <- lefti - 1
-                left.[lefti] <- 2147483647
-        else
-            result.[i] <- right.[righti]
-            righti <- righti + 1
-            if righti >= right.Length then
-                righti <- righti - 1
-                right.[righti] <- 2147483647
-    result
+﻿let rec merge (left:int[]) (right:int[]) : int[] =
+    if left.Length = 0 then
+        right
+    else if right.Length = 0 then
+        left
+    else if left.[0] < right.[0] then
+        Array.concat[ [| left.[0] |] ; merge left.[1..] right]
+    else
+        Array.concat[ [| right.[0] |] ; merge left right.[1..]]
 
 
 let rec mergesort fromIndex toIndex (data:int[]) : int[] =
