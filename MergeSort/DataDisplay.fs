@@ -1,4 +1,6 @@
-﻿module DataDisplay =
+﻿namespace MergeSort
+
+module DataDisplay =
     let printArray (data:int[]) : unit =
     let rec printElement (data:int[]) : unit =
         if data.Length = 0 then
