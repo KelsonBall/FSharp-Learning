@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MergeSort", "MergeSort\Merg
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fibonacci", "Fibonacci\Fibonacci.fsproj", "{E6960CE7-60DB-4241-ABEB-285A04F5D5CC}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CeaserCipher", "CeaserCipher\CeaserCipher.fsproj", "{50E55800-E31B-4022-AC2C-6B3F715A08E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E6960CE7-60DB-4241-ABEB-285A04F5D5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6960CE7-60DB-4241-ABEB-285A04F5D5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6960CE7-60DB-4241-ABEB-285A04F5D5CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E55800-E31B-4022-AC2C-6B3F715A08E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E55800-E31B-4022-AC2C-6B3F715A08E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E55800-E31B-4022-AC2C-6B3F715A08E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E55800-E31B-4022-AC2C-6B3F715A08E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

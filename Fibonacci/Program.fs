@@ -2,7 +2,7 @@
 module Program =
 
     // Utilizes the property (definition) of the lucas numbers that the sum of
-    // two consecutive seeds is in the lucas set of those seed numbers
+    // two consecutive seeds is in the lucas sequence of those seed numbers
     let rec lucas a b n =
         if n = 0 then
             a
