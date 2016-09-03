@@ -1,13 +1,7 @@
 ﻿namespace Main
 module Program =
 
-    let isLetter (letter:char) =
-        if letter >= 'a' && letter <= 'z' then
-            true
-        else if letter >= 'A' && letter <= 'Z' then
-            true
-        else
-            false
+    let isLetter (letter:char) = (letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z')
 
     let rec shiftCharUp (letter:char) shift : char =
         if shift = 0 then
