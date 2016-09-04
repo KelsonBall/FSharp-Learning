@@ -21,13 +21,13 @@ module Program =
         else
             ((string)(shiftCharUp ((char)content.[0]) key)) + (encode mutator (mutator key) (content.[1..])  )
 
-    let simpleEncode = encode (fun value -> value + 1 )
-    let simpleDecode = encode (fun value -> value - 1 )
+    let simpleEncode = encode (fun value -> value + 1 ) 7
+    let simpleDecode = encode (fun value -> value - 1 ) (26 - 7)
 
     [<EntryPoint>]
     let main argv =
-        let code = simpleEncode 7 "Hello, World!"
+        let code = simpleEncode "Hello, World!"
         printfn "%s" code
-        let result = simpleDecode (26 - 7) code
+        let result = simpleDecode code
         printfn "%s" result
         0 // return an integer exit code
