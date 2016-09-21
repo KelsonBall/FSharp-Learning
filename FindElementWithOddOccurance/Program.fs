@@ -12,7 +12,7 @@ module Program =
         else
             Array.concat[ data.[..(index - 1)] ; data.[(index + 1)..] ]
 
-    // Count the number of occurances of a value in an array and then return an array without that value
+    // Count the number of occurrences of a value in an array and then return an array without that value
     let rec countOccurances find count index (data:int[]) =
         if  index = data.Length then
             count, data

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MergeSort", "MergeSort\MergeSort.fsproj", "{60F40C5B-B775-4751-A005-B9195E5335B8}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FindElementWithOddOccurance", "FindElementWithOddOccurance\FindElementWithOddOccurance.fsproj", "{0BCA93F9-3EDD-4B58-AB4D-C59BCEECD031}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RotateArray", "RotateArray\RotateArray.fsproj", "{94932CA5-B024-40BA-A8A3-444DBD3A6E26}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LookAndSaySeries", "LookAndSaySeries\LookAndSaySeries.fsproj", "{125D6DB5-41CC-47C9-ABE8-417C3ACE9577}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{94932CA5-B024-40BA-A8A3-444DBD3A6E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94932CA5-B024-40BA-A8A3-444DBD3A6E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94932CA5-B024-40BA-A8A3-444DBD3A6E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125D6DB5-41CC-47C9-ABE8-417C3ACE9577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125D6DB5-41CC-47C9-ABE8-417C3ACE9577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125D6DB5-41CC-47C9-ABE8-417C3ACE9577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125D6DB5-41CC-47C9-ABE8-417C3ACE9577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
